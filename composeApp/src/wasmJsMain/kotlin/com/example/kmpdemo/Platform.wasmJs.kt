@@ -1,4 +1,4 @@
-package au.com.kmpfreightcalc
+package com.example.kmpdemo
 
 class WasmPlatform: Platform {
     override val name: String = "Web with Kotlin/Wasm"

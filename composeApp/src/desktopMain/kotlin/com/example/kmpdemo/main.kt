@@ -1,4 +1,4 @@
-package au.com.kmpfreightcalc
+package com.example.kmpdemo
 
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
@@ -6,7 +6,7 @@ import androidx.compose.ui.window.application
 fun main() = application {
     Window(
         onCloseRequest = ::exitApplication,
-        title = "KmpFreightCalc",
+        title = "kmp-compose-demo",
     ) {
         App()
     }

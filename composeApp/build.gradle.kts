@@ -77,11 +77,11 @@ kotlin {
 }
 
 android {
-    namespace = "au.com.kmpfreightcalc"
+    namespace = "com.example.kmpdemo"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "au.com.kmpfreightcalc"
+        applicationId = "com.example.kmpdemo"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1
@@ -109,11 +109,11 @@ dependencies {
 
 compose.desktop {
     application {
-        mainClass = "au.com.kmpfreightcalc.MainKt"
+        mainClass = "com.example.kmpdemo.MainKt"
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "au.com.kmpfreightcalc"
+            packageName = "com.example.kmpdemo"
             packageVersion = "1.0.0"
         }
     }

@@ -1,4 +1,4 @@
-package au.com.kmpfreightcalc
+package com.example.kmpdemo
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

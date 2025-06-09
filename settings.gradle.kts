@@ -1,4 +1,4 @@
-rootProject.name = "KmpFreightCalc"
+rootProject.name = "kmp-compose-demo"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {

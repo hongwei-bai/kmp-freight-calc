@@ -1,4 +1,4 @@
-package au.com.kmpfreightcalc
+package com.example.kmpdemo
 
 class JVMPlatform: Platform {
     override val name: String = "Java ${System.getProperty("java.version")}"

@@ -1,4 +1,4 @@
-package au.com.kmpfreightcalc
+package com.example.kmpdemo
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.Image
@@ -13,8 +13,8 @@ import androidx.compose.ui.Modifier
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
-import kmpfreightcalc.composeapp.generated.resources.Res
-import kmpfreightcalc.composeapp.generated.resources.compose_multiplatform
+import kmp_compose_demo.composeapp.generated.resources.Res
+import kmp_compose_demo.composeapp.generated.resources.compose_multiplatform
 
 @Composable
 @Preview
