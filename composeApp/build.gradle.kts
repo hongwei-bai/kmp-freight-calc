@@ -77,11 +77,11 @@ kotlin {
 }
 
 android {
-    namespace = "com.example.kmpdemo"
+    namespace = "com.example.freightcalc"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "com.example.kmpdemo"
+        applicationId = "com.example.freightcalc"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1
@@ -109,11 +109,11 @@ dependencies {
 
 compose.desktop {
     application {
-        mainClass = "com.example.kmpdemo.MainKt"
+        mainClass = "com.example.freightcalc.MainKt"
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "com.example.kmpdemo"
+            packageName = "com.example.freightcalc"
             packageVersion = "1.0.0"
         }
     }

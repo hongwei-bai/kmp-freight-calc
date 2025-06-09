@@ -1,4 +1,4 @@
-package com.example.kmpdemo
+package com.example.freightcalc
 
 import platform.UIKit.UIDevice
 

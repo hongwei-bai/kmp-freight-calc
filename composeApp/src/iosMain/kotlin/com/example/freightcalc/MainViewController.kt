@@ -1,4 +1,4 @@
-package com.example.kmpdemo
+package com.example.freightcalc
 
 import androidx.compose.ui.window.ComposeUIViewController
 

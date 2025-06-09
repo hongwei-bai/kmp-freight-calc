@@ -1,4 +1,4 @@
-package com.example.kmpdemo
+package com.example.freightcalc
 
 interface Platform {
     val name: String
